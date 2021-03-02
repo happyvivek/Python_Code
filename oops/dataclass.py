@@ -1,5 +1,5 @@
-from dataclasses import dataclass
 
+from dataclasses import dataclass
 @dataclass
 
 class Book:
@@ -7,6 +7,9 @@ class Book:
     author: str
     pages: str
     price: float
+
+    def book_info(self):
+        return f"{self.author}"
 
 
 b1 = Book("SAM", "NPS", "100", "100.5")

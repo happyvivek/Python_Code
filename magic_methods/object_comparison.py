@@ -38,6 +38,7 @@ print(b2 >= b1)
 print(b2 < b1)
 
 ##TO DO: Now we can sort the objs too
+##book uses __lt__ function
 books = [b1, b3, b4, b2] 
 books.sort()
 print([book.title for book in books])
