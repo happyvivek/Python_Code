@@ -1,5 +1,5 @@
 import pickle
-###Pickling is used to store the obj state in a file in binary format(serialization)
+###Pickling is used to store the obj state or u can say obj data in a file in binary format(serialization)
 ###Unpickling is used to get the obj state from file in binary(Deserialization)
 
 class Employee:
@@ -33,5 +33,6 @@ with open("dict.dat", "wb") as f:
 with open("dict.dat", "rb") as f:
     dictObj=pickle.load(f)
     print(type(dictObj))
+    #<class 'dict'>   so dictObj is the refrence to the dict class object dictObj.
     print("Unpickling of Dictionary Completed")
     print(dictObj)      

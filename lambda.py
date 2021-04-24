@@ -1,5 +1,5 @@
 #Lambda functions which doesnt have name 
-#They are exclusively used to operate on sinputs and return the outputs.
+#They are exclusively used to operate on inputs and return the outputs.
 #They are never used to perform actions
 
 def add(x, y):

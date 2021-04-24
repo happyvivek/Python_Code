@@ -3,7 +3,7 @@
 #() is required only when you want to indicate that class inherits from another class
 #override the __init__ function
 #init function(initializer function) is a special function to initialize thenew obj with info
-#init function is syninymous to constructor in java but obj is already created/initialized when
+#init function is synonymous to constructor in java but obj is already created/initialized when
 #  __init is called
 #init function is the first function to call before any other function to callin class
 
